@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf8">
+  <title>Steroids App</title>
+
+  <link rel="stylesheet" href="/vendor/topcoat/css/topcoat-mobile-light.css" />
+  <link rel="stylesheet" href="/stylesheets/application.css" />
+
+  <script src="/javascripts/onerror.js"></script>
+  <script src="/javascripts/console.log.js"></script>
+
+  <script src="/appgyver/cordova.js"></script>
+  <script src="/components/steroids-js/steroids.js"></script>
+
+  <script src="/components/jquery/jquery.min.js"></script>
+  <script src="/vendor/hammerjs/jquery.hammer.min.js"></script>
+  <script src="http://www.mapquestapi.com/sdk/js/v7.0.s/mqa.toolkit.js?key=Fmjtd%7Cluub20uz25%2Cr5%3Do5-9urnl0">
+
+  <script src="/models/models.js"></script>
+
+  <script src="/controllers/application.js"></script>
+  <script src="/controllers/story.js"></script>
+</head>
+<body>
+
+  <script>
+  StoryController.show();
+</script>
+
+<div class="content-padded">
+  <h2 id="story-title"></h2>
+  <div id="story-text"></div>
+  <div style="text-align: center;" >
+  	<button id="story-navigate" class="topcoat-button--cta" >Start your Adventure!</button>
+  </div>
+</div>
+
+
+</body>
+</html>
